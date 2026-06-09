@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bulma/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="../bulma/css/bulma.css">
+	<title>Pasion por el futbol</title>
+</head>
+<body>
+	<header>
+	<nav class="navbar has-background-grey" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <!-- LOGO AQUI -->
+    <a href="">
+    <figure class="image is-128x128">
+  <img class="is-rounded" src="../imagenes/inicio/image.jpg" />
+</figure>
+</a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="historia.html">
+        HISTORIA
+      </a>
+
+      <a class="navbar-item" href="reglas.html">
+        REGLAS
+      </a>
+
+      <a class="navbar-item" href="mundial.html">
+        MUNDIAL
+      </a>
+
+      <a class="navbar-item" href="datoscuriosos.html">
+        DATOS CURIOSOS
+      </a>
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" href="../menu/login.html">
+            <strong>INICIAR SECCION</strong>
+          </a>
+          <a class="button is-light" href="../menu/registrarse.html">
+            REGISTRARSE
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+<header>
+
+<section class="hero is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+
+      <h1 class="title has-text-centered is-size-1">
+        Copa Mundial de la FIFA
+      </h1>
+
+      <h2 class="subtitle has-text-centered is-size-4">
+        El evento más importante y emocionante del fútbol mundial
+      </h2>
+
+    </div>
+  </div>
+</section>
+
+<section class="section has-background-danger-light">
+
+  <div class="container">
+
+    
+    <div class="columns is-vcentered">
+
+      <div class="column is-6">
+
+        <figure class="image">
+          <img src="../imagenes/mundial/mag1.jpg" alt="">
+        </figure>
+
+      </div>
+
+      <div class="column is-6">
+
+        <div class="box">
+
+          <h2 class="title has-text-danger">
+            ¿Qué es el Mundial?
+          </h2>
+
+          <p class="is-size-5 has-text-justified">
+            La Copa Mundial de la FIFA es el torneo de fútbol más importante del planeta. 
+            Participan las mejores selecciones nacionales y se celebra cada cuatro años. 
+            Millones de personas siguen este evento por televisión y en los estadios.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <br><br>
+
+    
+    <div class="columns">
+
+      
+      <div class="column">
+        <div class="card">
+
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../imagenes/mundial/mag2.jpg" alt="">
+            </figure>
+          </div>
+
+          <div class="card-content">
+
+            <p class="title is-4">
+              Primer Mundial
+            </p>
+
+            <p>
+              El primer Mundial se realizó en Uruguay en 1930 y el país anfitrión fue campeón.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="column">
+        <div class="card">
+
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../imagenes/mundial/mag3.jpg" alt="">
+            </figure>
+          </div>
+
+          <div class="card-content">
+
+            <p class="title is-4">
+              Grandes jugadores
+            </p>
+
+            <p>
+              Futbolistas como Pelé, Maradona, Messi y Cristiano Ronaldo han marcado historia.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="column">
+        <div class="card">
+
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../imagenes/mundial/mag4.jpg" alt="">
+            </figure>
+          </div>
+
+          <div class="card-content">
+
+            <p class="title is-4">
+              Afición mundial
+            </p>
+
+            <p>
+              El Mundial reúne a millones de aficionados de diferentes países y culturas.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    
+    <div class="columns">
+
+      <div class="column">
+        <div class="notification is-warning">
+
+          <h2 class="title is-4">
+            Selección con más títulos
+          </h2>
+
+          <p class="is-size-5">
+            Brasil es la selección que más Copas Mundiales ha ganado.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="notification is-info">
+
+          <h2 class="title is-4">
+            Emoción mundial
+          </h2>
+
+          <p class="is-size-5">
+            El Mundial es uno de los eventos deportivos más vistos en todo el planeta.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+</header>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+</script>
+	</header>
+
+</body>
+</html>
+<footer class="footer has-background-black-ter has-text-white py-4">
+
+  <div class="container">
+
+    <div class="columns is-vcentered">
+
+      <div class="column has-text-left">
+
+        <p class="is-size-6">
+          Pasión por el Fútbol
+        </p>
+
+      </div>
+
+      <div class="column has-text-centered">
+
+        <p class="is-size-7">
+          MELISA GABRIELA AYALA LOPEZ | MARITZA DURAN BASURTO
+        </p>
+
+      </div>
+
+      <div class="column has-text-right">
+
+        <p class="is-size-7">
+          Grupo: <strong>601</strong> | Submódulo: Página Web
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
